@@ -16,9 +16,8 @@ const TinderFormContainer = (props) => {
   return (
     <div className="card-container">
       {props.items.map((card) => (
-        <div className="swipe">
+        <div key={card.id} className="swipe">
           <TinderCard
-            key={card.id}
             onSwipe={onSwipe}
             onCardLeftScreen={() => onCardLeftScreen("Card " + card.id)}
             className="swipe-card"

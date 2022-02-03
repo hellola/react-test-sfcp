@@ -28,7 +28,7 @@ const App = () => {
   const [cards, setCards] = useState(DUMMY_CARDS);
 
   return (
-    <div id="root">
+    <div>
       <div className="App">
         <Card className={styles["tad-tinder"]}>
           <TinderFormContainer items={cards} />
