@@ -1,0 +1,9 @@
+#root {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;    
+    background: linear-gradient(#43C6AC,#F8FFAE);
+}
